@@ -44,7 +44,6 @@ httplib2==0.20.4
 idna==3.3
 keras==2.8.0
 Keras-Preprocessing==1.1.2
-keyboard==0.13.5
 kiwisolver==1.4.2
 kombu==5.2.4
 libclang==13.0.0
@@ -52,11 +51,9 @@ Markdown==3.3.6
 msgpack==1.0.3
 multidict==6.0.2
 oauthlib==3.2.0
-openpyxl==3.0.9
 opt-einsum==3.3.0
 packaging==21.3
 pefile==2021.9.3
-Pillow==9.1.0
 prompt-toolkit==3.0.29
 proto-plus==1.20.3
 protobuf==3.20.0
@@ -65,8 +62,6 @@ pyasn1-modules==0.2.8
 pycparser==2.21
 pyinstaller==4.10
 pyinstaller-hooks-contrib==2022.3
-pynput==1.7.6
-pyparsing==3.0.7
 pyTelegramBotAPI==4.4.0
 python-dateutil==2.8.2
 pytz==2022.1
@@ -80,8 +75,6 @@ telebot==0.0.4
 tensorboard==2.8.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.8.0
-tensorflow-io-gcs-filesystem==0.24.0
 termcolor==1.1.0
 tf-estimator-nightly==2.8.0.dev2021122109
 tinyaes==1.0.3
@@ -93,5 +86,4 @@ vine==5.0.0
 wcwidth==0.2.5
 Werkzeug==2.1.1
 wrapt==1.14.0
-XlsxWriter==3.0.3
 yarl==1.7.2
