@@ -103,7 +103,7 @@ def gameID(message):
         m.append(message.text)
         doc_ref.update({str(message.chat.id):[m[0],m[1]]})
         bot.send_message(message.chat.id, 'Проверяем информацию. Подождите, пожалуйста, некоторое время')
-        schedule.every(5).seconds.do(checking_info,message).tag(str(message.chat.id))
+        schedule.every(2).minutes.do(checking_info,message).tag(str(message.chat.id))
     else:
         send = bot.send_message(message.chat.id, "Упс, вы допустили ошибку. Введите корректный ID")
         bot.register_next_step_handler(send,gameID)
