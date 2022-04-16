@@ -7,8 +7,6 @@ import datetime as dt
 from time import sleep
 from firebase_admin import credentials
 from firebase_admin import firestore
-from openpyxl import Workbook
-import openpyxl
 from datetime import date
 from datetime import timedelta
 from telebot import types
