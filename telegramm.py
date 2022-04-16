@@ -14,7 +14,7 @@ import schedule
 cred = credentials.Certificate("system.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
-token = '5011990621:AAHcP5ur_kh98rZkiltrVUNpdgPEYAZ7fvI'
+token = '5359992547:AAE1kcnsOW3hHhylak1OLFjsdrssTWFo3_w'
 bot = telebot.TeleBot(token)
 doc_ref = db.collection('users').document('ID').get().to_dict()
 def schedule_checker():
